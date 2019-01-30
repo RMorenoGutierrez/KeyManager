@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KeyManager.Domain.Abstract\KeyManager.Domain.Abstract.csproj" />
+    <ProjectReference Include="..\KeyManager.Services.Abstract\KeyManager.Services.Abstract.csproj" />
+  </ItemGroup>
+
+</Project>
